@@ -112,4 +112,12 @@ export class Heading {
       str = str.replace(/]]/gi, '');
       return str
   }
+
+  // private sanitizeString(str: string): string {
+  //     const chars = ["<", ">"]
+  //     for (const c in chars) {
+  //         const re = new RegExp(c,"gi")
+  //         str = str.replace(re, "");
+  //     }
+  // }
 }
